@@ -1,0 +1,33 @@
+---
+require:
+  - rubocop-performance
+  - rubocop-rspec
+AllCops:
+  TargetRubyVersion: 3.0
+  DisplayCopNames: true
+  NewCops: enable
+  SuggestExtensions: false
+Layout/LineLength:
+  Max: 120
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
+Layout/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+Metrics/BlockLength:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/NamedSubject:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
