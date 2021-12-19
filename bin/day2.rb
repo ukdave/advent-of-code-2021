@@ -4,6 +4,6 @@
 $LOAD_PATH << "lib"
 require "day2"
 
-day2 = Day2.new
 commands = File.readlines("fixtures/day2.txt")
-puts day2.run_commands(commands)
+puts Day2.new.run_commands(commands)
+puts Day2.new.run_commands2(commands)
